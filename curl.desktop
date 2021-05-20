@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=curl
+Exec=curl
+Comment=An URL retrieval utility and library
+Categories=Development;
+Terminal=true
+Icon=Curl-logo
