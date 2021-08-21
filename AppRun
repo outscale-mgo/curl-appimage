@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl-config --ca
+curl-config --ca > /dev/null
 RET=$?
 if [ $RET -eq 0 ]; then
     export CURL_CA_BUNDLE=$(curl-config --ca)
