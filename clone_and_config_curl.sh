@@ -1,8 +1,8 @@
 #!/bin/sh
 
-BRANCH=curl-7_76_1
+BRANCH=http_aws_sigv4_encoding
 
-git clone https://github.com/curl/curl.git
+git clone https://github.com/outscale-dev/curl.git
 cd curl
 git checkout $BRANCH
 ./buildconf
